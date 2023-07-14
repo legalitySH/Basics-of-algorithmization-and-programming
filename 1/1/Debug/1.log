@@ -1,0 +1,2 @@
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+D:\1 КУРС\2sem\ОАИП\labs(OAP)\LABS_OAP\Debug\1.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

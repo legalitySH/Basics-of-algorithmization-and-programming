@@ -1,0 +1,5 @@
+﻿D:\VS\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (8.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  ProjectQueue.cpp
+  QueueFunctions.cpp
+  Создание кода...
+  8.vcxproj -> D:\1 КУРС\2sem\ОАИП\8\8\x64\Debug\QueueFunctions.exe

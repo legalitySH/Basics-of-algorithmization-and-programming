@@ -1,0 +1,4 @@
+﻿  16.cpp
+D:\FirstCourse\2sem\ОАИП\16\16.cpp(103,11): warning C4244: /=: преобразование "double" в "int", возможна потеря данных
+D:\FirstCourse\2sem\ОАИП\16\16.cpp(200,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  16.vcxproj -> D:\FirstCourse\2sem\ОАИП\16\x64\Debug\16.exe

@@ -1,0 +1,49 @@
+﻿  3.cpp
+D:\VS\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB8071: не удается проанализировать выходные данные "D:\VS\VC\Tools\MSVC\14.35.32215\include\xlocale(632,54): fatal error C1060: компилятору не хватает размера кучи" с регулярным выражением "^In file included from .*$": Выдано исключение типа "System.OutOfMemoryException".
+MSBUILD : error MSB4166: произошло преждевременное завершение работы дочернего узла "2". Идет завершение работы. Диагностические данные можно найти в файлах с именем MSBuild_*.failure.txt, находящихся в каталоге "C:\Users\rpshe\AppData\Local\Temp\MSBuildTemprpshe\". Этот каталог можно изменить в переменной среды MSBUILDDEBUGPATH.
+MSBUILD : error MSB4166: C:\Users\rpshe\AppData\Local\Temp\MSBuildTemprpshe\MSBuild_pid-10140_c821016a951a4ce390b070096936d23b.failure.txt:
+MSBUILD : error MSB4166: UNHANDLED EXCEPTIONS FROM PROCESS 10140:
+MSBUILD : error MSB4166: =====================
+MSBUILD : error MSB4166: 29.03.2023 15:06:01
+MSBUILD : error MSB4166: System.OutOfMemoryException: Выдано исключение типа "System.OutOfMemoryException".
+MSBUILD : error MSB4166:    в Go5(RegexRunner )
+MSBUILD : error MSB4166:    в System.Text.RegularExpressions.RegexRunner.Scan(Regex regex, String text, Int32 textbeg, Int32 textend, Int32 textstart, Int32 prevlen, Boolean quick, TimeSpan timeout)
+MSBUILD : error MSB4166:    в System.Text.RegularExpressions.Regex.Run(Boolean quick, Int32 prevlen, String input, Int32 beginning, Int32 length, Int32 startat)
+MSBUILD : error MSB4166:    в System.Text.RegularExpressions.Regex.Match(String input, Int32 startat)
+MSBUILD : error MSB4166:    в Microsoft.Build.CPPTasks.VCToolTask.ParseLine(String inputLine)
+MSBUILD : error MSB4166: --- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+MSBUILD : error MSB4166:    в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+MSBUILD : error MSB4166:    в Microsoft.Build.CPPTasks.VCToolTask.ReportRegexException(String inputLine, Regex regex, Exception e)
+MSBUILD : error MSB4166:    в Microsoft.Build.CPPTasks.VCToolTask.ParseLine(String inputLine)
+MSBUILD : error MSB4166:    в Microsoft.Build.CPPTasks.VCToolTask.LogEventsFromTextOutput(String singleLine, MessageImportance messageImportance)
+MSBUILD : error MSB4166:    в Microsoft.Build.CPPTasks.TrackedVCToolTask.ReadUnicodeOutput(Object stateInfo)
+MSBUILD : error MSB4166:    в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+MSBUILD : error MSB4166:    в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+MSBUILD : error MSB4166:    в System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+MSBUILD : error MSB4166:    в System.Threading.ThreadPoolWorkQueue.Dispatch()
+MSBUILD : error MSB4166: ===================
+MSBUILD : error MSB4166: 
+MSBUILD : error MSB4166: 
+MSBUILD : error MSB4166: C:\Users\rpshe\AppData\Local\Temp\MSBuildTemprpshe\MSBuild_pid-19968_9dda5eaaf3704f94bdca060fe55f393d.failure.txt:
+MSBUILD : error MSB4166: UNHANDLED EXCEPTIONS FROM PROCESS 19968:
+MSBUILD : error MSB4166: =====================
+MSBUILD : error MSB4166: 29.03.2023 15:06:31
+MSBUILD : error MSB4166: System.OutOfMemoryException: Выдано исключение типа "System.OutOfMemoryException".
+MSBUILD : error MSB4166:    в Go4(RegexRunner )
+MSBUILD : error MSB4166:    в System.Text.RegularExpressions.RegexRunner.Scan(Regex regex, String text, Int32 textbeg, Int32 textend, Int32 textstart, Int32 prevlen, Boolean quick, TimeSpan timeout)
+MSBUILD : error MSB4166:    в System.Text.RegularExpressions.Regex.Run(Boolean quick, Int32 prevlen, String input, Int32 beginning, Int32 length, Int32 startat)
+MSBUILD : error MSB4166:    в System.Text.RegularExpressions.Regex.Match(String input, Int32 startat)
+MSBUILD : error MSB4166:    в Microsoft.Build.CPPTasks.VCToolTask.ParseLine(String inputLine)
+MSBUILD : error MSB4166: --- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+MSBUILD : error MSB4166:    в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+MSBUILD : error MSB4166:    в Microsoft.Build.CPPTasks.VCToolTask.ReportRegexException(String inputLine, Regex regex, Exception e)
+MSBUILD : error MSB4166:    в Microsoft.Build.CPPTasks.VCToolTask.ParseLine(String inputLine)
+MSBUILD : error MSB4166:    в Microsoft.Build.CPPTasks.VCToolTask.LogEventsFromTextOutput(String singleLine, MessageImportance messageImportance)
+MSBUILD : error MSB4166:    в Microsoft.Build.CPPTasks.TrackedVCToolTask.ReadUnicodeOutput(Object stateInfo)
+MSBUILD : error MSB4166:    в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+MSBUILD : error MSB4166:    в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+MSBUILD : error MSB4166:    в System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+MSBUILD : error MSB4166:    в System.Threading.ThreadPoolWorkQueue.Dispatch()
+MSBUILD : error MSB4166: ===================
+MSBUILD : error MSB4166: 
+MSBUILD : error MSB4166: 

@@ -1,0 +1,4 @@
+﻿D:\VS\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (dop(7).vcxproj, dop1(7).vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  dop1.cpp
+D:\FirstCourse\2sem\ОАИП\7\dop1(7)\dop1(7)\dop1.cpp(38,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  dop1(7).vcxproj -> D:\FirstCourse\2sem\ОАИП\7\x64\Debug\dop 1.exe
